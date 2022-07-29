@@ -1,0 +1,88 @@
+@charset 'utf-8';
+
+/* ************************************************스크롤 섹션*************************************************** */
+.scroll-section{
+  border: 3px solid darkslateblue;
+}
+/* *************************************************구분용 선*************************************************** */
+
+html{
+    font-size:14px;
+}
+body{
+    overflow-x: hidden;
+    color: white;
+    letter-spacing: -0.05em;
+    background-color: #121212;
+}
+strong{
+    color: #BF94E4;
+}
+p{
+    line-height: 1.6;
+}
+
+.top-nav{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 50px;
+    padding: 0 1 rem;
+    backdrop-filter: blur(15px);
+    z-index: 5;
+}
+.top-nav-link{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.top-nav-link .product-name{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-right: auto;
+}
+.top-nav-link a{
+    font-size: 0.9rem;
+}
+.top-nav-link a:not(.product-name){
+    margin-left: 2em;
+}
+#scroll-section-0{
+    background-image: url("../images/who.png");
+    background-size: cover;
+}
+#section-0-style1{
+    font-size:25px;
+    padding:400px 0 0 500px;
+}
+#section-0-style2{
+    text-align: center;
+}
+.section1-top{
+    background-color: #1e1e1e;
+    height: 90px;
+    font-size:18px;
+    padding: 60px 0 0 0;
+    text-align: center;
+}
+hr{
+    width: 4%;
+    background-color: white;
+    margin-top: 170px;
+}
+#section-1-style1{
+    font-size:18px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+img{
+    width: 25%;
+    border-radius: 5%;
+}
+#img-style{
+    text-align: center;
+    border-radius: 5%;
+}
