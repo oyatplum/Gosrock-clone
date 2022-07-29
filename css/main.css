@@ -6,9 +6,7 @@
 }
 /* *************************************************구분용 선*************************************************** */
 
-html{
-    font-size:14px;
-}
+
 body{
     overflow-x: hidden;
     color: white;
@@ -20,6 +18,8 @@ strong{
 }
 p{
     line-height: 1.6;
+    font-size: 18px;
+    text-align: center;
 }
 
 .top-nav{
@@ -82,23 +82,24 @@ img{
     width: 25%;
     border-radius: 5%;
 }
-#img-style{
+#img-style1{
     text-align: center;
     border-radius: 5%;
     margin-bottom: 130px;
 }
-.container{
-    flex-direction: column;
-    justify-content: center;
+#img-style2{
+    width:100%;
+    height:100%;
 }
 #section-2-style1{
     font-size:25px;
-    padding:200px 0 0 500px;
 }
-#section-2-style2{
+/* #section-2-style2{
     font-size: 15px;
     text-align: center;
-    padding: 0 350px 0 0;
+} */
+#section-3-style1{
+    font-size:25px;
 }
 .section4-top{
     background-color: #1e1e1e;
@@ -119,4 +120,11 @@ img{
 #logo{
     width: 25%;
     padding: 100px 0 0 37%;
+}
+.phone{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-content: center;
+
 }
