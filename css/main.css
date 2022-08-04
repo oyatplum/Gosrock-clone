@@ -1,12 +1,6 @@
 @charset 'utf-8';
 
-/* ************************************************스크롤 섹션*************************************************** */
-.scroll-section{
-  border: 3px solid darkslateblue;
-}
-/* *************************************************구분용 선*************************************************** */
-
-
+/* *************************************************************************************************** */
 body{
     overflow-x: hidden;
     color: white;
@@ -21,7 +15,11 @@ p{
     font-size: 15px;
     text-align: center;
 }
-
+h3{
+    font-size:18px;
+}
+/* **************************************************************************************************** */
+/* top */
 .top-nav{
     position: fixed;
     top:0;
@@ -49,17 +47,26 @@ p{
 .top-nav-link a:not(.product-name){
     margin-left: 2em;
 }
+/* **************************************************************************************************** */
+/* all_section */
+.scroll-section{
+    border: 3px solid darkslateblue;
+}
+/* **************************************************************************************************** */
+/* section0 */
 #scroll-section-0{
     background-image: url("../images/who.png");
     background-size: cover;
 }
-#section-0-style1{
+#invitation{
     font-size:25px;
     padding:400px 0 0 500px;
 }
-#section-0-style2{
+#introduction{
     text-align: center;
 }
+/* **************************************************************************************************** */
+/* section1 */
 .section1-top{
     background-color: #1e1e1e;
     height: 90px;
@@ -72,35 +79,48 @@ hr{
     background-color: white;
     margin-top: 170px;
 }
-#section-1-style1{
+#date-place{
     font-size:18px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-img{
-    width: 25%;
+.poster_map img{
+    width: 35%;
     border-radius: 5%;
 }
-#img-style1{
+.poster_map{
     text-align: center;
     border-radius: 5%;
     margin-bottom: 130px;
 }
-#img-style2{
-    width:70%;
-    height:70%;
-    text-align: center;
-    margin-left: -25%;
-    margin-right: -25%;
+/* **************************************************************************************************** */
+/* section2-3 */
+.fresher{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
 }
-#section-2-style1{
+#fresher2{
+    flex-direction: row-reverse;
+}
+.phone{
+    width:320px;
     font-size:25px;
 }
-
-#section-3-style1{
-    font-size:30px;
+.phone img{
+    width: 100%;
+    height: auto;
 }
+#fresher1 #mobile{
+    margin-bottom: -10vh;
+}
+#fresher2 #mobile{
+    margin-top: -10vh;
+}
+/* **************************************************************************************************** */
+/* section4 */
 .section4-top{
     background-color: #1e1e1e;
     height: 90px;
@@ -108,28 +128,29 @@ img{
     padding: 60px 0 0 0;
     text-align: center;
 }
-
 .guide{
-    padding: 300px 0 0 30%;
+    padding: 200px 30% 150px 30%;
     color: #BF94E4;
 }
-
+.guide p{
+    text-align: left;
+}
+#guide_main{
+    padding: 0 0 50px 0;
+}
+#guide_detail{
+    padding: 30px 30px 50px 30px;
+}
+/* **************************************************************************************************** */
+/* footer */
 .footer{
     text-align: center;
     color: #BF94E4;
+    margin-top: 150px;
 }
-#logo{
-    width: 25%;
-    padding: 100px 0 0 37%;
+#copyright{
+    margin-top:15px;
+    margin-bottom:8px;
 }
-.phone{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-#phone2{
-    flex-direction: row-reverse;
-}
-h3{
-    font-size:15px;
-}
+
+
