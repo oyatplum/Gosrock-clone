@@ -5,12 +5,64 @@
 @media screen and (max-width: 600px){
     #scroll-section-0{
         background-image: url("../images/who-mobile.png");
-        background-size: cover;
-    }   
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #invitation{
+        font-size:20px;
+        padding: 400px 0 0 50px;
+    }
+    #introduction h3{
+        font-size:14px;
+    }
+    .poster_map img{
+        width: 70%;
+        border-radius: 5%;
+    }
+    .phone img{
+        width: 50%;
+        height: auto;
+    }
+    .phone{
+        font-size:25px;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 600px){
     #scroll-section-0{
-        background-color : white;
+        background-image : url("../images/who.png");
+        background-size: cover;
+    }
+    #invitation{
+        font-size:25px;
+        padding: 400px 0 0 500px;
+    }
+    #introduction h3{
+        font-size:18px;
+    }
+    .poster_map img{
+        width: 35%;
+        border-radius: 5%;
+    }
+    .fresher{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 30px;
+    }
+    .phone img{
+        width: 100%;
+        height: auto;
+    }
+    .phone{
+        width:320px;
+        font-size:25px;
+    }
+    #fresher1 #mobile{
+        margin-bottom: -10vh;
+    }
+    #fresher2 #mobile{
+        margin-top: -10vh;
     }   
 }
 /* *************************************************************************************************** */
@@ -28,9 +80,6 @@ p{
     line-height: 1.6;
     font-size: 15px;
     text-align: center;
-}
-h3{
-    font-size:18px;
 }
 /* **************************************************************************************************** */
 /* top */
@@ -68,17 +117,20 @@ h3{
 }
 /* **************************************************************************************************** */
 /* section0 */
-#scroll-section-0{
+/* #scroll-section-0{
     background-image: url("../images/who.png");
     background-size: cover;
-}
-#invitation{
+} */
+/* #invitation{
     font-size:25px;
     padding:400px 0 0 500px;
-}
+} */
 #introduction{
     text-align: center;
 }
+/* #introduction h3{
+    font-size:18px;
+} */
 /* **************************************************************************************************** */
 /* section1 */
 .section1-top{
@@ -99,10 +151,10 @@ hr{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.poster_map img{
+/* .poster_map img{
     width: 35%;
     border-radius: 5%;
-}
+} */
 .poster_map{
     text-align: center;
     border-radius: 5%;
@@ -110,29 +162,29 @@ hr{
 }
 /* **************************************************************************************************** */
 /* section2-3 */
-.fresher{
+/* .fresher{
     display: flex;
     justify-content:center;
     align-items: center;
     gap: 30px;
-}
+} */
 #fresher2{
     flex-direction: row-reverse;
 }
-.phone{
+/* .phone{
     width:320px;
     font-size:25px;
-}
-.phone img{
+} */
+/* .phone img{
     width: 100%;
     height: auto;
-}
-#fresher1 #mobile{
+} */
+/* #fresher1 #mobile{
     margin-bottom: -10vh;
 }
 #fresher2 #mobile{
     margin-top: -10vh;
-}
+} */
 /* **************************************************************************************************** */
 /* section4 */
 .section4-top{
