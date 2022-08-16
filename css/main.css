@@ -27,6 +27,10 @@
         font-size:25px;
         text-align: center;
     }
+    .guide{
+        padding: 200px 10% 150px 10%;
+        color: #BF94E4;
+    }
 }
 @media screen and (min-width: 600px){
     #scroll-section-0{
@@ -63,7 +67,11 @@
     }
     #fresher2 #mobile{
         margin-top: -10vh;
-    }   
+    }
+    .guide{
+        padding: 200px 30% 150px 30%;
+        color: #BF94E4;
+    } 
 }
 /* *************************************************************************************************** */
 body{
@@ -194,10 +202,10 @@ hr{
     padding: 60px 0 0 0;
     text-align: center;
 }
-.guide{
+/* .guide{
     padding: 200px 30% 150px 30%;
     color: #BF94E4;
-}
+} */
 .guide p{
     text-align: left;
 }
